@@ -17,7 +17,7 @@ namespace Game.InputLogic
 
         private void Move()
         {
-            float moveValue = _speed * _inputMultiplier * Time.deltaTime;
+            float moveValue = Speed * _inputMultiplier * Time.deltaTime;
 
             if (Input.GetKey(KeyCode.LeftArrow))
                 OnLeftMove(moveValue);

@@ -12,7 +12,6 @@ internal class MainController : BaseController
     private SettingsMenuController _settingsMenuController;
     private GameController _gameController;
 
-
     public MainController(Transform placeForUi, ProfilePlayer profilePlayer)
     {
         _placeForUi = placeForUi;

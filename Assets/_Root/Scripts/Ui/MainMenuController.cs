@@ -1,4 +1,5 @@
 using Profile;
+using Services;
 using Tool;
 using UnityEngine;
 using Object = UnityEngine.Object;
@@ -15,7 +16,16 @@ namespace Ui
         {
             _profilePlayer = profilePlayer;
             _view = LoadView(placeForUi);
-            _view.Init(StartGame, OpenSetting);
+            _view.Init(StartGame, OpenSetting, ShowAdsReward, BuyProduct);
+
+            SubscribeAds();
+            SubscribeIAP();
+        }
+
+        protected override void OnDispose()
+        {
+            UnSubscribeAds();
+            UnSubscribeIAP();
         }
 
         private MainMenuView LoadView(Transform placeForUi)
@@ -32,5 +42,43 @@ namespace Ui
 
         private void OpenSetting() =>
             _profilePlayer.CurrentState.Value = GameState.Settings;
+
+        private void ShowAdsReward() =>
+            ServiceRoster.AdsService.RewardedPlayer.Play();
+
+        private void BuyProduct(string productId) =>
+            ServiceRoster.IAPService.Buy(productId);
+
+        private void SubscribeAds()
+        {
+            ServiceRoster.AdsService.RewardedPlayer.Finished += OnAdsFinished;
+            ServiceRoster.AdsService.RewardedPlayer.Failed += OnAdsCancelled;
+            ServiceRoster.AdsService.RewardedPlayer.Skipped += OnAdsCancelled;
+        }
+
+        private void UnSubscribeAds()
+        {
+            ServiceRoster.AdsService.RewardedPlayer.Finished -= OnAdsFinished;
+            ServiceRoster.AdsService.RewardedPlayer.Failed -= OnAdsCancelled;
+            ServiceRoster.AdsService.RewardedPlayer.Skipped -= OnAdsCancelled;
+        }
+
+        private void SubscribeIAP()
+        {
+            ServiceRoster.IAPService.PurchaseSucceed.AddListener(OnIAPSucceed);
+            ServiceRoster.IAPService.PurchaseFailed.AddListener(OnIAPFailed);
+        }
+
+        private void UnSubscribeIAP()
+        {
+            ServiceRoster.IAPService.PurchaseSucceed.RemoveListener(OnIAPSucceed);
+            ServiceRoster.IAPService.PurchaseFailed.RemoveListener(OnIAPFailed);
+        }
+
+        private void OnAdsFinished() => Debug.Log("Реклама просмотрена.");
+        private void OnAdsCancelled() => Debug.Log("Реклама не просмотрена.");
+
+        private void OnIAPSucceed() => Debug.Log("Покупка совершена успешно.");
+        private void OnIAPFailed() => Debug.Log("Покупка не совершена.");
     }
 }
