@@ -15,7 +15,7 @@ MonoBehaviour:
   _androidGameId: 4281407
   _iOsGameId: 4281406
   <Interstitial>k__BackingField:
-    <Enabled>k__BackingField: 1
+    <Enabled>k__BackingField: 0
     _androidId: Interstitial_Android
     _iosId: Interstitial_iOS
   <Rewarded>k__BackingField:

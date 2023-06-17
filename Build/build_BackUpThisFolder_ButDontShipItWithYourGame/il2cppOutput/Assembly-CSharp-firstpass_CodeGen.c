@@ -1,0 +1,602 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void UnityStandardAssets.CrossPlatformInput.AxisTouchButton::OnEnable()
+extern void AxisTouchButton_OnEnable_m739A6BAA59C49DBDD8224CA560FAAD2C2E308C19 (void);
+// 0x00000002 System.Void UnityStandardAssets.CrossPlatformInput.AxisTouchButton::FindPairedButton()
+extern void AxisTouchButton_FindPairedButton_mEF81BD49005A8A44AEB2D4824E556CFA980BC357 (void);
+// 0x00000003 System.Void UnityStandardAssets.CrossPlatformInput.AxisTouchButton::OnDisable()
+extern void AxisTouchButton_OnDisable_mFD8240E64258AD98157DAAB2E5C80EB8EA33E13F (void);
+// 0x00000004 System.Void UnityStandardAssets.CrossPlatformInput.AxisTouchButton::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern void AxisTouchButton_OnPointerDown_m08AD754EA24E21A50DC9639253AC3207EDF14241 (void);
+// 0x00000005 System.Void UnityStandardAssets.CrossPlatformInput.AxisTouchButton::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+extern void AxisTouchButton_OnPointerUp_m3445C59659DF8A529B7E70B85492FDE79D265F8E (void);
+// 0x00000006 System.Void UnityStandardAssets.CrossPlatformInput.AxisTouchButton::.ctor()
+extern void AxisTouchButton__ctor_m69F5488B9DD821682C0AC04B8D008866B01DA6F5 (void);
+// 0x00000007 System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::OnEnable()
+extern void ButtonHandler_OnEnable_m35FC21EBC6D6A7062003911D158F66FE59122354 (void);
+// 0x00000008 System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::SetDownState()
+extern void ButtonHandler_SetDownState_m6C7CB1ACFA4DEF08E0444332839981E5ABB01208 (void);
+// 0x00000009 System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::SetUpState()
+extern void ButtonHandler_SetUpState_mB4EA685DF7ED8DDAC2B0176BB53D0554704FECF4 (void);
+// 0x0000000A System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::SetAxisPositiveState()
+extern void ButtonHandler_SetAxisPositiveState_mC51088D8C1AF07C8373DC19F76BD94939458DAB6 (void);
+// 0x0000000B System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::SetAxisNeutralState()
+extern void ButtonHandler_SetAxisNeutralState_mD66D42617BC6B1516E9D729FDCB02E4F70F85AE2 (void);
+// 0x0000000C System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::SetAxisNegativeState()
+extern void ButtonHandler_SetAxisNegativeState_m2E9EA8DB1E942648F409A038C9F4536A6A3386B4 (void);
+// 0x0000000D System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::Update()
+extern void ButtonHandler_Update_m399FF918AA563164D5EDC87795A41B796769C97F (void);
+// 0x0000000E System.Void UnityStandardAssets.CrossPlatformInput.ButtonHandler::.ctor()
+extern void ButtonHandler__ctor_mFBD7D957B3E08CCDC5C56F36A7F302AF1C191EC7 (void);
+// 0x0000000F System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::.cctor()
+extern void CrossPlatformInputManager__cctor_mC88146A86815CD0DA255FFE6AEA5003BF8D52635 (void);
+// 0x00000010 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::SwitchActiveInputMethod(UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/ActiveInputMethod)
+extern void CrossPlatformInputManager_SwitchActiveInputMethod_m46859F9362AB0DC0C6BE08CD2AF4968908B6255B (void);
+// 0x00000011 System.Boolean UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::AxisExists(System.String)
+extern void CrossPlatformInputManager_AxisExists_mA28724550F29D30794347B4D0D261C8DCF2379B5 (void);
+// 0x00000012 System.Boolean UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::ButtonExists(System.String)
+extern void CrossPlatformInputManager_ButtonExists_m5997C8F7C8E208249BA087025F66697D21104870 (void);
+// 0x00000013 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::RegisterVirtualAxis(UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis)
+extern void CrossPlatformInputManager_RegisterVirtualAxis_m0F02AB31A767E13F0958CEE2FF2136B398BEC2CE (void);
+// 0x00000014 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::RegisterVirtualButton(UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton)
+extern void CrossPlatformInputManager_RegisterVirtualButton_m7ACC1D3AA3C1BABF83AEF35E1BFC07EA9657B3FE (void);
+// 0x00000015 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::UnRegisterVirtualAxis(System.String)
+extern void CrossPlatformInputManager_UnRegisterVirtualAxis_m8B8E45A28A46B77B74CAE79929EC1C38FA18F51C (void);
+// 0x00000016 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::UnRegisterVirtualButton(System.String)
+extern void CrossPlatformInputManager_UnRegisterVirtualButton_m24CCE49E23728D56BF2BD1840DA2B7C191F9F521 (void);
+// 0x00000017 UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::VirtualAxisReference(System.String)
+extern void CrossPlatformInputManager_VirtualAxisReference_mE56029E21956969FADA0752C85B26A46775DD560 (void);
+// 0x00000018 System.Single UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::GetAxis(System.String)
+extern void CrossPlatformInputManager_GetAxis_m56637A96AB414A6F3848926AE06716EC6BA01B73 (void);
+// 0x00000019 System.Single UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::GetAxisRaw(System.String)
+extern void CrossPlatformInputManager_GetAxisRaw_m0C66054CD0C2F55E92A611EE5AD9A0A238877511 (void);
+// 0x0000001A System.Single UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::GetAxis(System.String,System.Boolean)
+extern void CrossPlatformInputManager_GetAxis_m53906A543E90B2BD4D7319354D440726D15417A1 (void);
+// 0x0000001B System.Boolean UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::GetButton(System.String)
+extern void CrossPlatformInputManager_GetButton_m3D90712975C90FB0BA03754C54350D0C5B75D941 (void);
+// 0x0000001C System.Boolean UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::GetButtonDown(System.String)
+extern void CrossPlatformInputManager_GetButtonDown_m4E62257BA42AC8F34522386BACF7885F91AA95A2 (void);
+// 0x0000001D System.Boolean UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::GetButtonUp(System.String)
+extern void CrossPlatformInputManager_GetButtonUp_m10A854117395E5CC65173CE56D8F3BBAAFD9D5E1 (void);
+// 0x0000001E System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::SetButtonDown(System.String)
+extern void CrossPlatformInputManager_SetButtonDown_m3A98BEA8828258B64FAC5267A2C19C29408B57CB (void);
+// 0x0000001F System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::SetButtonUp(System.String)
+extern void CrossPlatformInputManager_SetButtonUp_mA094232F2316F161FBDF066988996616ADB26924 (void);
+// 0x00000020 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::SetAxisPositive(System.String)
+extern void CrossPlatformInputManager_SetAxisPositive_m888F28D0605D6B9497CF729B1F75327504D1A6F0 (void);
+// 0x00000021 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::SetAxisNegative(System.String)
+extern void CrossPlatformInputManager_SetAxisNegative_mE331885BC869B3275717CA1FF8CC5BC25E8B0735 (void);
+// 0x00000022 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::SetAxisZero(System.String)
+extern void CrossPlatformInputManager_SetAxisZero_mB66622C6FD77108EB7F8C7EB7D5883618EBDB111 (void);
+// 0x00000023 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::SetAxis(System.String,System.Single)
+extern void CrossPlatformInputManager_SetAxis_m3A367F56D991C5B52EEA7524CB2D5475673694CC (void);
+// 0x00000024 UnityEngine.Vector3 UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::get_mousePosition()
+extern void CrossPlatformInputManager_get_mousePosition_mC312F0733DF2C898001314507E27C64CCC13C8A1 (void);
+// 0x00000025 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::SetVirtualMousePositionX(System.Single)
+extern void CrossPlatformInputManager_SetVirtualMousePositionX_mF80097C5DF23A79B084D483E102AC2C5A8AC5031 (void);
+// 0x00000026 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::SetVirtualMousePositionY(System.Single)
+extern void CrossPlatformInputManager_SetVirtualMousePositionY_m6FEEF7728B8ED2C5352CF313C9555330ED1CE803 (void);
+// 0x00000027 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager::SetVirtualMousePositionZ(System.Single)
+extern void CrossPlatformInputManager_SetVirtualMousePositionZ_m4B449E8F0D084B706AEE5A3D1B2985C16B52474E (void);
+// 0x00000028 System.String UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis::get_name()
+extern void VirtualAxis_get_name_mB215A6D2540D63039CF1AF8DAD75083BE6C42B94 (void);
+// 0x00000029 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis::set_name(System.String)
+extern void VirtualAxis_set_name_m1ACC9260F42FF6B84F7FE033FDCD39E5B84D39CD (void);
+// 0x0000002A System.Boolean UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis::get_matchWithInputManager()
+extern void VirtualAxis_get_matchWithInputManager_mF8E152814D898FE8F54D4E1CD12A593820A25937 (void);
+// 0x0000002B System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis::set_matchWithInputManager(System.Boolean)
+extern void VirtualAxis_set_matchWithInputManager_m64B5DDE21842217E453CF99A61D473EF8E8111B8 (void);
+// 0x0000002C System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis::.ctor(System.String)
+extern void VirtualAxis__ctor_mB7D39B75EDF8642254F8621FE2B10B634D297AD5 (void);
+// 0x0000002D System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis::.ctor(System.String,System.Boolean)
+extern void VirtualAxis__ctor_mB68089D9540C9F6FAB7374B51AC6350C9CF2D156 (void);
+// 0x0000002E System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis::Remove()
+extern void VirtualAxis_Remove_mEDDEC59110B58B2F98B0900A7C3896BE598C9F48 (void);
+// 0x0000002F System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis::Update(System.Single)
+extern void VirtualAxis_Update_mBF84A169980643545AC4F1A771A32B8BAAD1E7A0 (void);
+// 0x00000030 System.Single UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis::get_GetValue()
+extern void VirtualAxis_get_GetValue_m3208970D6C40FC8AA0304330C7BB4E3797F7EDE7 (void);
+// 0x00000031 System.Single UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis::get_GetValueRaw()
+extern void VirtualAxis_get_GetValueRaw_mAA90043B7C84C9711E2634526C0A0DA9F8D60CB8 (void);
+// 0x00000032 System.String UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton::get_name()
+extern void VirtualButton_get_name_m42EB4DDCECD4253AA6AD05E7A3A80F4B02F8BF22 (void);
+// 0x00000033 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton::set_name(System.String)
+extern void VirtualButton_set_name_mDD23E2B0311CA404527187BC10C06BDABA2262AC (void);
+// 0x00000034 System.Boolean UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton::get_matchWithInputManager()
+extern void VirtualButton_get_matchWithInputManager_m7B2AA7C47390156121D9DA0C84B11806275EB2C4 (void);
+// 0x00000035 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton::set_matchWithInputManager(System.Boolean)
+extern void VirtualButton_set_matchWithInputManager_mB580A9CD9D60CACAC2CBBB9569BA68D418450E69 (void);
+// 0x00000036 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton::.ctor(System.String)
+extern void VirtualButton__ctor_m08D38A950516399E44D084FD0B1C0D6C1064B001 (void);
+// 0x00000037 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton::.ctor(System.String,System.Boolean)
+extern void VirtualButton__ctor_m0729B25EBD030FF90211D5D707B84DA39E5AC834 (void);
+// 0x00000038 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton::Pressed()
+extern void VirtualButton_Pressed_m3872C7EDE943398CE5769D0A9E0E6686FC673C9D (void);
+// 0x00000039 System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton::Released()
+extern void VirtualButton_Released_m359DAE002A4035E09419F599F18CB10411229B76 (void);
+// 0x0000003A System.Void UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton::Remove()
+extern void VirtualButton_Remove_m213428254F9C51AE5691C4F6699C79FDAF8F39AA (void);
+// 0x0000003B System.Boolean UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton::get_GetButton()
+extern void VirtualButton_get_GetButton_mFCD3B5447C6EEF1E177F556973D9BA199AE24E5F (void);
+// 0x0000003C System.Boolean UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton::get_GetButtonDown()
+extern void VirtualButton_get_GetButtonDown_mDF48F18DE1BC8DF6D05852022AAE246F3D9E97B5 (void);
+// 0x0000003D System.Boolean UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton::get_GetButtonUp()
+extern void VirtualButton_get_GetButtonUp_m5721A8485FCCFCC67F52242319422FB2AB998632 (void);
+// 0x0000003E System.Void UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar::Update()
+extern void InputAxisScrollbar_Update_m345C49EE6E13246516BD139BC57943DEDCE20FEA (void);
+// 0x0000003F System.Void UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar::HandleInput(System.Single)
+extern void InputAxisScrollbar_HandleInput_m7303F1D2B4BE0AFF1E76DB5EDDCA1EB634F4B9E0 (void);
+// 0x00000040 System.Void UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar::.ctor()
+extern void InputAxisScrollbar__ctor_m143BE7C13E36BC37C0281E3112AC48CCD0BF6237 (void);
+// 0x00000041 System.Void UnityStandardAssets.CrossPlatformInput.Joystick::OnEnable()
+extern void Joystick_OnEnable_m4E2C44C85ED0E8C28526A1250BD4AADE4321538E (void);
+// 0x00000042 System.Void UnityStandardAssets.CrossPlatformInput.Joystick::Start()
+extern void Joystick_Start_m1C1E55BDB5806435C89AB7488284B420AC5355FC (void);
+// 0x00000043 System.Void UnityStandardAssets.CrossPlatformInput.Joystick::SetStartPosition(UnityEngine.Vector3)
+extern void Joystick_SetStartPosition_mA9EF764878A85F0B17D5C7016F2262086BE357FE (void);
+// 0x00000044 System.Void UnityStandardAssets.CrossPlatformInput.Joystick::UpdateVirtualAxes(UnityEngine.Vector3)
+extern void Joystick_UpdateVirtualAxes_m41F7216FC387D5156760F923E92E3CD0A0D2A5E3 (void);
+// 0x00000045 System.Void UnityStandardAssets.CrossPlatformInput.Joystick::CreateVirtualAxes()
+extern void Joystick_CreateVirtualAxes_mFAC65E96F52C596F86B171BA7C9908EF463252B8 (void);
+// 0x00000046 System.Void UnityStandardAssets.CrossPlatformInput.Joystick::OnDrag(UnityEngine.EventSystems.PointerEventData)
+extern void Joystick_OnDrag_mFA3FC0CBDB1EC9125909AAFE681BBD40BCE88ABC (void);
+// 0x00000047 System.Void UnityStandardAssets.CrossPlatformInput.Joystick::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+extern void Joystick_OnPointerUp_m0D3B89C70F3708B7FBA410DECA246D743FDA6A31 (void);
+// 0x00000048 System.Void UnityStandardAssets.CrossPlatformInput.Joystick::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern void Joystick_OnPointerDown_m137FE9DE7E6F99E76DC199E1D8449FE2BB793556 (void);
+// 0x00000049 System.Void UnityStandardAssets.CrossPlatformInput.Joystick::OnDisable()
+extern void Joystick_OnDisable_mBDE2BF482277628F8CCEB19FDECCEC712C63FC8C (void);
+// 0x0000004A System.Void UnityStandardAssets.CrossPlatformInput.Joystick::.ctor()
+extern void Joystick__ctor_m655588F3B14C6FB7CFBF57A40131DB4A295136D1 (void);
+// 0x0000004B System.Void UnityStandardAssets.CrossPlatformInput.MobileControlRig::OnEnable()
+extern void MobileControlRig_OnEnable_m6A7EE6E006630A4193B9B425DA8BFCF16CDB0B05 (void);
+// 0x0000004C System.Void UnityStandardAssets.CrossPlatformInput.MobileControlRig::Start()
+extern void MobileControlRig_Start_mB1F53AF41FA7EB7CBD92E63B73C272868688D130 (void);
+// 0x0000004D System.Void UnityStandardAssets.CrossPlatformInput.MobileControlRig::CheckEnableControlRig()
+extern void MobileControlRig_CheckEnableControlRig_mF261F979D8CD7D103FF73567AB6004E3CB647DAE (void);
+// 0x0000004E System.Void UnityStandardAssets.CrossPlatformInput.MobileControlRig::EnableControlRig(System.Boolean)
+extern void MobileControlRig_EnableControlRig_mE00CD430D95890E65F6C7AEE6B100DD87B2154F7 (void);
+// 0x0000004F System.Void UnityStandardAssets.CrossPlatformInput.MobileControlRig::.ctor()
+extern void MobileControlRig__ctor_mDC03AD50DB43AB4D3F47F2DC685A53F5A13B1C19 (void);
+// 0x00000050 System.Void UnityStandardAssets.CrossPlatformInput.TiltInput::OnEnable()
+extern void TiltInput_OnEnable_m57FADB0702A5AD886CC27E00B02514F2393B8D49 (void);
+// 0x00000051 System.Void UnityStandardAssets.CrossPlatformInput.TiltInput::Update()
+extern void TiltInput_Update_mF3CB6E42BEF9EEE8153B7B7DF52125219D80E4C5 (void);
+// 0x00000052 System.Void UnityStandardAssets.CrossPlatformInput.TiltInput::OnDisable()
+extern void TiltInput_OnDisable_mEC7E5C76F7589DE026791C036A8FF79B784656AF (void);
+// 0x00000053 System.Void UnityStandardAssets.CrossPlatformInput.TiltInput::.ctor()
+extern void TiltInput__ctor_m61849C3DD7C9392AF54C1FFB8DD5F232EE47DD88 (void);
+// 0x00000054 System.Void UnityStandardAssets.CrossPlatformInput.TiltInput/AxisMapping::.ctor()
+extern void AxisMapping__ctor_mDED64FAF129F5258594E88CF94D4005A4ADBEF8D (void);
+// 0x00000055 System.Void UnityStandardAssets.CrossPlatformInput.TouchPad::OnEnable()
+extern void TouchPad_OnEnable_m9C6C15184F78C3781FB17B4B432AB09CCA5A60B2 (void);
+// 0x00000056 System.Void UnityStandardAssets.CrossPlatformInput.TouchPad::Start()
+extern void TouchPad_Start_m0D677C9CE19DE3BEEEFB44D42E0BA584CC459640 (void);
+// 0x00000057 System.Void UnityStandardAssets.CrossPlatformInput.TouchPad::CreateVirtualAxes()
+extern void TouchPad_CreateVirtualAxes_m3A335708DDC0EDC8ACD3F5E53E8205E8869B336C (void);
+// 0x00000058 System.Void UnityStandardAssets.CrossPlatformInput.TouchPad::UpdateVirtualAxes(UnityEngine.Vector3)
+extern void TouchPad_UpdateVirtualAxes_m3886DD2ED302456B300020641788FC4672F7307B (void);
+// 0x00000059 System.Void UnityStandardAssets.CrossPlatformInput.TouchPad::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern void TouchPad_OnPointerDown_mA4711FDD087C0E39E484716D4868A333BC76C6C2 (void);
+// 0x0000005A System.Void UnityStandardAssets.CrossPlatformInput.TouchPad::Update()
+extern void TouchPad_Update_m504A0F9F5CB342D4721C3F1FE402238A370A3AEF (void);
+// 0x0000005B System.Void UnityStandardAssets.CrossPlatformInput.TouchPad::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+extern void TouchPad_OnPointerUp_m3F05D6E3B6B706AE61B76E007FA199B74D0128AD (void);
+// 0x0000005C System.Void UnityStandardAssets.CrossPlatformInput.TouchPad::OnDisable()
+extern void TouchPad_OnDisable_m2FF7B984D0AB8BBB1A335B675318E618EC7DD915 (void);
+// 0x0000005D System.Void UnityStandardAssets.CrossPlatformInput.TouchPad::.ctor()
+extern void TouchPad__ctor_m9B15A7CE1E1899F315DA5248F5F38D45D3D382F1 (void);
+// 0x0000005E UnityEngine.Vector3 UnityStandardAssets.CrossPlatformInput.VirtualInput::get_virtualMousePosition()
+extern void VirtualInput_get_virtualMousePosition_m2935B464BDD2C0FB8606C42BF4C418DDEEFC15E8 (void);
+// 0x0000005F System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::set_virtualMousePosition(UnityEngine.Vector3)
+extern void VirtualInput_set_virtualMousePosition_m695B765261F304C42498A2A1A08ACB8705857CE9 (void);
+// 0x00000060 System.Boolean UnityStandardAssets.CrossPlatformInput.VirtualInput::AxisExists(System.String)
+extern void VirtualInput_AxisExists_mED2FABA84EE1C5E4F464D1EB22A746A7B49A32DB (void);
+// 0x00000061 System.Boolean UnityStandardAssets.CrossPlatformInput.VirtualInput::ButtonExists(System.String)
+extern void VirtualInput_ButtonExists_m01FC46D132CE9A53E128F091D53F0A4ABFBC75CF (void);
+// 0x00000062 System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::RegisterVirtualAxis(UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis)
+extern void VirtualInput_RegisterVirtualAxis_mB78A29811E4ACE37253488549970615358007256 (void);
+// 0x00000063 System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::RegisterVirtualButton(UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton)
+extern void VirtualInput_RegisterVirtualButton_m77D934CDC1ACF8C60D435EDE229D1FC29A950BFD (void);
+// 0x00000064 System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::UnRegisterVirtualAxis(System.String)
+extern void VirtualInput_UnRegisterVirtualAxis_mE52BC71A1382C85BFA9E5B604FFADB7DDEB00364 (void);
+// 0x00000065 System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::UnRegisterVirtualButton(System.String)
+extern void VirtualInput_UnRegisterVirtualButton_mC5933B08DF96B5E56CC35922E745F05C78B902AB (void);
+// 0x00000066 UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis UnityStandardAssets.CrossPlatformInput.VirtualInput::VirtualAxisReference(System.String)
+extern void VirtualInput_VirtualAxisReference_mAD34229AA6FC0FF71F66A776E66853B47DD17301 (void);
+// 0x00000067 System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::SetVirtualMousePositionX(System.Single)
+extern void VirtualInput_SetVirtualMousePositionX_mD950764D7B140DFD39999B9C36A1FC527BB18B95 (void);
+// 0x00000068 System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::SetVirtualMousePositionY(System.Single)
+extern void VirtualInput_SetVirtualMousePositionY_mA7F72188309360B9662EE393983183308B85C13B (void);
+// 0x00000069 System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::SetVirtualMousePositionZ(System.Single)
+extern void VirtualInput_SetVirtualMousePositionZ_m0F88050AF38D8B27BDFEC2B501DB0FDBE54BAF43 (void);
+// 0x0000006A System.Single UnityStandardAssets.CrossPlatformInput.VirtualInput::GetAxis(System.String,System.Boolean)
+// 0x0000006B System.Boolean UnityStandardAssets.CrossPlatformInput.VirtualInput::GetButton(System.String)
+// 0x0000006C System.Boolean UnityStandardAssets.CrossPlatformInput.VirtualInput::GetButtonDown(System.String)
+// 0x0000006D System.Boolean UnityStandardAssets.CrossPlatformInput.VirtualInput::GetButtonUp(System.String)
+// 0x0000006E System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::SetButtonDown(System.String)
+// 0x0000006F System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::SetButtonUp(System.String)
+// 0x00000070 System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::SetAxisPositive(System.String)
+// 0x00000071 System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::SetAxisNegative(System.String)
+// 0x00000072 System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::SetAxisZero(System.String)
+// 0x00000073 System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::SetAxis(System.String,System.Single)
+// 0x00000074 UnityEngine.Vector3 UnityStandardAssets.CrossPlatformInput.VirtualInput::MousePosition()
+// 0x00000075 System.Void UnityStandardAssets.CrossPlatformInput.VirtualInput::.ctor()
+extern void VirtualInput__ctor_mF5E08A62E03FFBF955939A5637E36B1BD5184ECD (void);
+// 0x00000076 System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput::AddButton(System.String)
+extern void MobileInput_AddButton_m8EAE0FECC9BDCECC2E6EC5A964AA78F6FBDE251D (void);
+// 0x00000077 System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput::AddAxes(System.String)
+extern void MobileInput_AddAxes_m84F66639D48511D97F8E71A37488745E9112CE5F (void);
+// 0x00000078 System.Single UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput::GetAxis(System.String,System.Boolean)
+extern void MobileInput_GetAxis_m6F4F2F01AA0B9B1C6A151C252A44785766A6F8B7 (void);
+// 0x00000079 System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput::SetButtonDown(System.String)
+extern void MobileInput_SetButtonDown_m6AA87970E30D462D2E3D70CF5E0CA69AA25D8A45 (void);
+// 0x0000007A System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput::SetButtonUp(System.String)
+extern void MobileInput_SetButtonUp_m4AF9465A9E2B6B00AA2561453251C1F6833E4BD5 (void);
+// 0x0000007B System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput::SetAxisPositive(System.String)
+extern void MobileInput_SetAxisPositive_m47A20F43787C4A99A8DBF3BDC32D243C414D9984 (void);
+// 0x0000007C System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput::SetAxisNegative(System.String)
+extern void MobileInput_SetAxisNegative_m8C1413D7674ED365FDED0866967FD8B293B8563B (void);
+// 0x0000007D System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput::SetAxisZero(System.String)
+extern void MobileInput_SetAxisZero_mF25D66055A22917625F061DEC1FCC0DA76483CD7 (void);
+// 0x0000007E System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput::SetAxis(System.String,System.Single)
+extern void MobileInput_SetAxis_m5A73B5F5B02C23B96A15A4A34ABE939805E9B6B8 (void);
+// 0x0000007F System.Boolean UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput::GetButtonDown(System.String)
+extern void MobileInput_GetButtonDown_mF2830867E47B0DDB7A6CE64BFFCF323DD28C7964 (void);
+// 0x00000080 System.Boolean UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput::GetButtonUp(System.String)
+extern void MobileInput_GetButtonUp_mC6565976389B53D827B6550D294CB08A275FFFCB (void);
+// 0x00000081 System.Boolean UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput::GetButton(System.String)
+extern void MobileInput_GetButton_mD5088B6C42E56D69A73A3D9D1D866008A6AE3662 (void);
+// 0x00000082 UnityEngine.Vector3 UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput::MousePosition()
+extern void MobileInput_MousePosition_mA64FB64F736061995376B9A9A4F9413710148EA2 (void);
+// 0x00000083 System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput::.ctor()
+extern void MobileInput__ctor_m07059ED5F2B9B0CAD1E4236B6B48D2389C296733 (void);
+// 0x00000084 System.Single UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput::GetAxis(System.String,System.Boolean)
+extern void StandaloneInput_GetAxis_m43EA70333817C590C64AFF7C32C92BD887AC47CA (void);
+// 0x00000085 System.Boolean UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput::GetButton(System.String)
+extern void StandaloneInput_GetButton_m6958AE36EE2F0D329AFD4E6D52ECA5851F85186C (void);
+// 0x00000086 System.Boolean UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput::GetButtonDown(System.String)
+extern void StandaloneInput_GetButtonDown_mCC2E98581EF6F74A2C26239D8CCB0BDC32A82E9E (void);
+// 0x00000087 System.Boolean UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput::GetButtonUp(System.String)
+extern void StandaloneInput_GetButtonUp_m801C2B384336FE78A08A0484DFBE6530E1C6640A (void);
+// 0x00000088 System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput::SetButtonDown(System.String)
+extern void StandaloneInput_SetButtonDown_m1E5353A39619C3E7A984DBB4CEE2723FCF62BE43 (void);
+// 0x00000089 System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput::SetButtonUp(System.String)
+extern void StandaloneInput_SetButtonUp_mBFF7876850BB9450FC67F16901A596211F4F9E20 (void);
+// 0x0000008A System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput::SetAxisPositive(System.String)
+extern void StandaloneInput_SetAxisPositive_m10B0D98E7C0FBDDB95CFDC6AEFA95CD5B197192E (void);
+// 0x0000008B System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput::SetAxisNegative(System.String)
+extern void StandaloneInput_SetAxisNegative_mCE8C3094324B5A86388B8387E8E66C796576B482 (void);
+// 0x0000008C System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput::SetAxisZero(System.String)
+extern void StandaloneInput_SetAxisZero_m26FB53017C9E066DEF72387B2A1DFB8106CF5E52 (void);
+// 0x0000008D System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput::SetAxis(System.String,System.Single)
+extern void StandaloneInput_SetAxis_m7536D55B9E48E66ABA27727BE1B1C1C3CFF75C14 (void);
+// 0x0000008E UnityEngine.Vector3 UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput::MousePosition()
+extern void StandaloneInput_MousePosition_mFC7523F8A3034AE181ABE3E53A21F90FB3DE4643 (void);
+// 0x0000008F System.Void UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput::.ctor()
+extern void StandaloneInput__ctor_mD647D2B31817BF5FD4A882F8F695E6FB463D8468 (void);
+static Il2CppMethodPointer s_methodPointers[143] = 
+{
+	AxisTouchButton_OnEnable_m739A6BAA59C49DBDD8224CA560FAAD2C2E308C19,
+	AxisTouchButton_FindPairedButton_mEF81BD49005A8A44AEB2D4824E556CFA980BC357,
+	AxisTouchButton_OnDisable_mFD8240E64258AD98157DAAB2E5C80EB8EA33E13F,
+	AxisTouchButton_OnPointerDown_m08AD754EA24E21A50DC9639253AC3207EDF14241,
+	AxisTouchButton_OnPointerUp_m3445C59659DF8A529B7E70B85492FDE79D265F8E,
+	AxisTouchButton__ctor_m69F5488B9DD821682C0AC04B8D008866B01DA6F5,
+	ButtonHandler_OnEnable_m35FC21EBC6D6A7062003911D158F66FE59122354,
+	ButtonHandler_SetDownState_m6C7CB1ACFA4DEF08E0444332839981E5ABB01208,
+	ButtonHandler_SetUpState_mB4EA685DF7ED8DDAC2B0176BB53D0554704FECF4,
+	ButtonHandler_SetAxisPositiveState_mC51088D8C1AF07C8373DC19F76BD94939458DAB6,
+	ButtonHandler_SetAxisNeutralState_mD66D42617BC6B1516E9D729FDCB02E4F70F85AE2,
+	ButtonHandler_SetAxisNegativeState_m2E9EA8DB1E942648F409A038C9F4536A6A3386B4,
+	ButtonHandler_Update_m399FF918AA563164D5EDC87795A41B796769C97F,
+	ButtonHandler__ctor_mFBD7D957B3E08CCDC5C56F36A7F302AF1C191EC7,
+	CrossPlatformInputManager__cctor_mC88146A86815CD0DA255FFE6AEA5003BF8D52635,
+	CrossPlatformInputManager_SwitchActiveInputMethod_m46859F9362AB0DC0C6BE08CD2AF4968908B6255B,
+	CrossPlatformInputManager_AxisExists_mA28724550F29D30794347B4D0D261C8DCF2379B5,
+	CrossPlatformInputManager_ButtonExists_m5997C8F7C8E208249BA087025F66697D21104870,
+	CrossPlatformInputManager_RegisterVirtualAxis_m0F02AB31A767E13F0958CEE2FF2136B398BEC2CE,
+	CrossPlatformInputManager_RegisterVirtualButton_m7ACC1D3AA3C1BABF83AEF35E1BFC07EA9657B3FE,
+	CrossPlatformInputManager_UnRegisterVirtualAxis_m8B8E45A28A46B77B74CAE79929EC1C38FA18F51C,
+	CrossPlatformInputManager_UnRegisterVirtualButton_m24CCE49E23728D56BF2BD1840DA2B7C191F9F521,
+	CrossPlatformInputManager_VirtualAxisReference_mE56029E21956969FADA0752C85B26A46775DD560,
+	CrossPlatformInputManager_GetAxis_m56637A96AB414A6F3848926AE06716EC6BA01B73,
+	CrossPlatformInputManager_GetAxisRaw_m0C66054CD0C2F55E92A611EE5AD9A0A238877511,
+	CrossPlatformInputManager_GetAxis_m53906A543E90B2BD4D7319354D440726D15417A1,
+	CrossPlatformInputManager_GetButton_m3D90712975C90FB0BA03754C54350D0C5B75D941,
+	CrossPlatformInputManager_GetButtonDown_m4E62257BA42AC8F34522386BACF7885F91AA95A2,
+	CrossPlatformInputManager_GetButtonUp_m10A854117395E5CC65173CE56D8F3BBAAFD9D5E1,
+	CrossPlatformInputManager_SetButtonDown_m3A98BEA8828258B64FAC5267A2C19C29408B57CB,
+	CrossPlatformInputManager_SetButtonUp_mA094232F2316F161FBDF066988996616ADB26924,
+	CrossPlatformInputManager_SetAxisPositive_m888F28D0605D6B9497CF729B1F75327504D1A6F0,
+	CrossPlatformInputManager_SetAxisNegative_mE331885BC869B3275717CA1FF8CC5BC25E8B0735,
+	CrossPlatformInputManager_SetAxisZero_mB66622C6FD77108EB7F8C7EB7D5883618EBDB111,
+	CrossPlatformInputManager_SetAxis_m3A367F56D991C5B52EEA7524CB2D5475673694CC,
+	CrossPlatformInputManager_get_mousePosition_mC312F0733DF2C898001314507E27C64CCC13C8A1,
+	CrossPlatformInputManager_SetVirtualMousePositionX_mF80097C5DF23A79B084D483E102AC2C5A8AC5031,
+	CrossPlatformInputManager_SetVirtualMousePositionY_m6FEEF7728B8ED2C5352CF313C9555330ED1CE803,
+	CrossPlatformInputManager_SetVirtualMousePositionZ_m4B449E8F0D084B706AEE5A3D1B2985C16B52474E,
+	VirtualAxis_get_name_mB215A6D2540D63039CF1AF8DAD75083BE6C42B94,
+	VirtualAxis_set_name_m1ACC9260F42FF6B84F7FE033FDCD39E5B84D39CD,
+	VirtualAxis_get_matchWithInputManager_mF8E152814D898FE8F54D4E1CD12A593820A25937,
+	VirtualAxis_set_matchWithInputManager_m64B5DDE21842217E453CF99A61D473EF8E8111B8,
+	VirtualAxis__ctor_mB7D39B75EDF8642254F8621FE2B10B634D297AD5,
+	VirtualAxis__ctor_mB68089D9540C9F6FAB7374B51AC6350C9CF2D156,
+	VirtualAxis_Remove_mEDDEC59110B58B2F98B0900A7C3896BE598C9F48,
+	VirtualAxis_Update_mBF84A169980643545AC4F1A771A32B8BAAD1E7A0,
+	VirtualAxis_get_GetValue_m3208970D6C40FC8AA0304330C7BB4E3797F7EDE7,
+	VirtualAxis_get_GetValueRaw_mAA90043B7C84C9711E2634526C0A0DA9F8D60CB8,
+	VirtualButton_get_name_m42EB4DDCECD4253AA6AD05E7A3A80F4B02F8BF22,
+	VirtualButton_set_name_mDD23E2B0311CA404527187BC10C06BDABA2262AC,
+	VirtualButton_get_matchWithInputManager_m7B2AA7C47390156121D9DA0C84B11806275EB2C4,
+	VirtualButton_set_matchWithInputManager_mB580A9CD9D60CACAC2CBBB9569BA68D418450E69,
+	VirtualButton__ctor_m08D38A950516399E44D084FD0B1C0D6C1064B001,
+	VirtualButton__ctor_m0729B25EBD030FF90211D5D707B84DA39E5AC834,
+	VirtualButton_Pressed_m3872C7EDE943398CE5769D0A9E0E6686FC673C9D,
+	VirtualButton_Released_m359DAE002A4035E09419F599F18CB10411229B76,
+	VirtualButton_Remove_m213428254F9C51AE5691C4F6699C79FDAF8F39AA,
+	VirtualButton_get_GetButton_mFCD3B5447C6EEF1E177F556973D9BA199AE24E5F,
+	VirtualButton_get_GetButtonDown_mDF48F18DE1BC8DF6D05852022AAE246F3D9E97B5,
+	VirtualButton_get_GetButtonUp_m5721A8485FCCFCC67F52242319422FB2AB998632,
+	InputAxisScrollbar_Update_m345C49EE6E13246516BD139BC57943DEDCE20FEA,
+	InputAxisScrollbar_HandleInput_m7303F1D2B4BE0AFF1E76DB5EDDCA1EB634F4B9E0,
+	InputAxisScrollbar__ctor_m143BE7C13E36BC37C0281E3112AC48CCD0BF6237,
+	Joystick_OnEnable_m4E2C44C85ED0E8C28526A1250BD4AADE4321538E,
+	Joystick_Start_m1C1E55BDB5806435C89AB7488284B420AC5355FC,
+	Joystick_SetStartPosition_mA9EF764878A85F0B17D5C7016F2262086BE357FE,
+	Joystick_UpdateVirtualAxes_m41F7216FC387D5156760F923E92E3CD0A0D2A5E3,
+	Joystick_CreateVirtualAxes_mFAC65E96F52C596F86B171BA7C9908EF463252B8,
+	Joystick_OnDrag_mFA3FC0CBDB1EC9125909AAFE681BBD40BCE88ABC,
+	Joystick_OnPointerUp_m0D3B89C70F3708B7FBA410DECA246D743FDA6A31,
+	Joystick_OnPointerDown_m137FE9DE7E6F99E76DC199E1D8449FE2BB793556,
+	Joystick_OnDisable_mBDE2BF482277628F8CCEB19FDECCEC712C63FC8C,
+	Joystick__ctor_m655588F3B14C6FB7CFBF57A40131DB4A295136D1,
+	MobileControlRig_OnEnable_m6A7EE6E006630A4193B9B425DA8BFCF16CDB0B05,
+	MobileControlRig_Start_mB1F53AF41FA7EB7CBD92E63B73C272868688D130,
+	MobileControlRig_CheckEnableControlRig_mF261F979D8CD7D103FF73567AB6004E3CB647DAE,
+	MobileControlRig_EnableControlRig_mE00CD430D95890E65F6C7AEE6B100DD87B2154F7,
+	MobileControlRig__ctor_mDC03AD50DB43AB4D3F47F2DC685A53F5A13B1C19,
+	TiltInput_OnEnable_m57FADB0702A5AD886CC27E00B02514F2393B8D49,
+	TiltInput_Update_mF3CB6E42BEF9EEE8153B7B7DF52125219D80E4C5,
+	TiltInput_OnDisable_mEC7E5C76F7589DE026791C036A8FF79B784656AF,
+	TiltInput__ctor_m61849C3DD7C9392AF54C1FFB8DD5F232EE47DD88,
+	AxisMapping__ctor_mDED64FAF129F5258594E88CF94D4005A4ADBEF8D,
+	TouchPad_OnEnable_m9C6C15184F78C3781FB17B4B432AB09CCA5A60B2,
+	TouchPad_Start_m0D677C9CE19DE3BEEEFB44D42E0BA584CC459640,
+	TouchPad_CreateVirtualAxes_m3A335708DDC0EDC8ACD3F5E53E8205E8869B336C,
+	TouchPad_UpdateVirtualAxes_m3886DD2ED302456B300020641788FC4672F7307B,
+	TouchPad_OnPointerDown_mA4711FDD087C0E39E484716D4868A333BC76C6C2,
+	TouchPad_Update_m504A0F9F5CB342D4721C3F1FE402238A370A3AEF,
+	TouchPad_OnPointerUp_m3F05D6E3B6B706AE61B76E007FA199B74D0128AD,
+	TouchPad_OnDisable_m2FF7B984D0AB8BBB1A335B675318E618EC7DD915,
+	TouchPad__ctor_m9B15A7CE1E1899F315DA5248F5F38D45D3D382F1,
+	VirtualInput_get_virtualMousePosition_m2935B464BDD2C0FB8606C42BF4C418DDEEFC15E8,
+	VirtualInput_set_virtualMousePosition_m695B765261F304C42498A2A1A08ACB8705857CE9,
+	VirtualInput_AxisExists_mED2FABA84EE1C5E4F464D1EB22A746A7B49A32DB,
+	VirtualInput_ButtonExists_m01FC46D132CE9A53E128F091D53F0A4ABFBC75CF,
+	VirtualInput_RegisterVirtualAxis_mB78A29811E4ACE37253488549970615358007256,
+	VirtualInput_RegisterVirtualButton_m77D934CDC1ACF8C60D435EDE229D1FC29A950BFD,
+	VirtualInput_UnRegisterVirtualAxis_mE52BC71A1382C85BFA9E5B604FFADB7DDEB00364,
+	VirtualInput_UnRegisterVirtualButton_mC5933B08DF96B5E56CC35922E745F05C78B902AB,
+	VirtualInput_VirtualAxisReference_mAD34229AA6FC0FF71F66A776E66853B47DD17301,
+	VirtualInput_SetVirtualMousePositionX_mD950764D7B140DFD39999B9C36A1FC527BB18B95,
+	VirtualInput_SetVirtualMousePositionY_mA7F72188309360B9662EE393983183308B85C13B,
+	VirtualInput_SetVirtualMousePositionZ_m0F88050AF38D8B27BDFEC2B501DB0FDBE54BAF43,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	VirtualInput__ctor_mF5E08A62E03FFBF955939A5637E36B1BD5184ECD,
+	MobileInput_AddButton_m8EAE0FECC9BDCECC2E6EC5A964AA78F6FBDE251D,
+	MobileInput_AddAxes_m84F66639D48511D97F8E71A37488745E9112CE5F,
+	MobileInput_GetAxis_m6F4F2F01AA0B9B1C6A151C252A44785766A6F8B7,
+	MobileInput_SetButtonDown_m6AA87970E30D462D2E3D70CF5E0CA69AA25D8A45,
+	MobileInput_SetButtonUp_m4AF9465A9E2B6B00AA2561453251C1F6833E4BD5,
+	MobileInput_SetAxisPositive_m47A20F43787C4A99A8DBF3BDC32D243C414D9984,
+	MobileInput_SetAxisNegative_m8C1413D7674ED365FDED0866967FD8B293B8563B,
+	MobileInput_SetAxisZero_mF25D66055A22917625F061DEC1FCC0DA76483CD7,
+	MobileInput_SetAxis_m5A73B5F5B02C23B96A15A4A34ABE939805E9B6B8,
+	MobileInput_GetButtonDown_mF2830867E47B0DDB7A6CE64BFFCF323DD28C7964,
+	MobileInput_GetButtonUp_mC6565976389B53D827B6550D294CB08A275FFFCB,
+	MobileInput_GetButton_mD5088B6C42E56D69A73A3D9D1D866008A6AE3662,
+	MobileInput_MousePosition_mA64FB64F736061995376B9A9A4F9413710148EA2,
+	MobileInput__ctor_m07059ED5F2B9B0CAD1E4236B6B48D2389C296733,
+	StandaloneInput_GetAxis_m43EA70333817C590C64AFF7C32C92BD887AC47CA,
+	StandaloneInput_GetButton_m6958AE36EE2F0D329AFD4E6D52ECA5851F85186C,
+	StandaloneInput_GetButtonDown_mCC2E98581EF6F74A2C26239D8CCB0BDC32A82E9E,
+	StandaloneInput_GetButtonUp_m801C2B384336FE78A08A0484DFBE6530E1C6640A,
+	StandaloneInput_SetButtonDown_m1E5353A39619C3E7A984DBB4CEE2723FCF62BE43,
+	StandaloneInput_SetButtonUp_mBFF7876850BB9450FC67F16901A596211F4F9E20,
+	StandaloneInput_SetAxisPositive_m10B0D98E7C0FBDDB95CFDC6AEFA95CD5B197192E,
+	StandaloneInput_SetAxisNegative_mCE8C3094324B5A86388B8387E8E66C796576B482,
+	StandaloneInput_SetAxisZero_m26FB53017C9E066DEF72387B2A1DFB8106CF5E52,
+	StandaloneInput_SetAxis_m7536D55B9E48E66ABA27727BE1B1C1C3CFF75C14,
+	StandaloneInput_MousePosition_mFC7523F8A3034AE181ABE3E53A21F90FB3DE4643,
+	StandaloneInput__ctor_mD647D2B31817BF5FD4A882F8F695E6FB463D8468,
+};
+static const int32_t s_InvokerIndices[143] = 
+{
+	3392,
+	3392,
+	3392,
+	2754,
+	2754,
+	3392,
+	3392,
+	3392,
+	3392,
+	3392,
+	3392,
+	3392,
+	3392,
+	3392,
+	5247,
+	5128,
+	4848,
+	4848,
+	5132,
+	5132,
+	5132,
+	5132,
+	4987,
+	5037,
+	5037,
+	4646,
+	4848,
+	4848,
+	4848,
+	5132,
+	5132,
+	5132,
+	5132,
+	5132,
+	4749,
+	5245,
+	5138,
+	5138,
+	5138,
+	3308,
+	2754,
+	3252,
+	2699,
+	2754,
+	1556,
+	3392,
+	2785,
+	3343,
+	3343,
+	3308,
+	2754,
+	3252,
+	2699,
+	2754,
+	1556,
+	3392,
+	3392,
+	3392,
+	3252,
+	3252,
+	3252,
+	3392,
+	2785,
+	3392,
+	3392,
+	3392,
+	2821,
+	2821,
+	3392,
+	2754,
+	2754,
+	2754,
+	3392,
+	3392,
+	3392,
+	3392,
+	3392,
+	2699,
+	3392,
+	3392,
+	3392,
+	3392,
+	3392,
+	3392,
+	3392,
+	3392,
+	3392,
+	2821,
+	2754,
+	3392,
+	2754,
+	3392,
+	3392,
+	3385,
+	2821,
+	1980,
+	1980,
+	2754,
+	2754,
+	2754,
+	2754,
+	2444,
+	2785,
+	2785,
+	2785,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	3392,
+	2754,
+	2754,
+	1248,
+	2754,
+	2754,
+	2754,
+	2754,
+	2754,
+	1570,
+	1980,
+	1980,
+	1980,
+	3385,
+	3392,
+	1248,
+	1980,
+	1980,
+	1980,
+	2754,
+	2754,
+	2754,
+	2754,
+	2754,
+	1570,
+	3385,
+	3392,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule = 
+{
+	"Assembly-CSharp-firstpass.dll",
+	143,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

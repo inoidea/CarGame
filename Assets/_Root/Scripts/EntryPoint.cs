@@ -7,6 +7,7 @@ using Services.Ads.UnityAds;
 internal class EntryPoint : MonoBehaviour
 {
     private const float SpeedCar = 15f;
+    private const float JumpHeight = 2f;
     private const GameState InitialState = GameState.Start;
 
     [SerializeField] private Transform _placeForUi;
@@ -16,10 +17,9 @@ internal class EntryPoint : MonoBehaviour
 
     private MainController _mainController;
 
-
     private void Start()
     {
-        var profilePlayer = new ProfilePlayer(SpeedCar, InitialState);
+        var profilePlayer = new ProfilePlayer(SpeedCar, JumpHeight, InitialState);
         _mainController = new MainController(_placeForUi, profilePlayer);
 
         _analytics.SendMainMenuOpenedEvent();
@@ -37,7 +37,6 @@ internal class EntryPoint : MonoBehaviour
         _iapService.Initialized.RemoveListener(OnIapInitialized);
         _mainController.Dispose();
     }
-
 
     private void OnAdsInitialized() => _adsService.InterstitialPlayer.Play();
     private void OnIapInitialized() => _iapService.Buy("product_1");

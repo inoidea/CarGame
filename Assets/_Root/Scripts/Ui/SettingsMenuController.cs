@@ -2,7 +2,6 @@
 using Game;
 using Profile;
 using UnityEngine;
-using UnityEditor.SceneManagement;
 using Tool;
 
 internal class SettingsMenuController : BaseController

@@ -16,7 +16,7 @@ namespace Ui
         {
             _profilePlayer = profilePlayer;
             _view = LoadView(placeForUi);
-            _view.Init(StartGame, OpenSetting, ShowAdsReward, BuyProduct);
+            _view.Init(StartGame, OpenSetting, ShowAdsReward, BuyProduct, OpenShed);
 
             SubscribeAds();
             SubscribeIAP();
@@ -37,17 +37,15 @@ namespace Ui
             return objectView.GetComponent<MainMenuView>();
         }
 
-        private void StartGame() =>
-            _profilePlayer.CurrentState.Value = GameState.Game;
+        private void StartGame() => _profilePlayer.CurrentState.Value = GameState.Game;
 
-        private void OpenSetting() =>
-            _profilePlayer.CurrentState.Value = GameState.Settings;
+        private void OpenSetting() => _profilePlayer.CurrentState.Value = GameState.Settings;
 
-        private void ShowAdsReward() =>
-            ServiceRoster.AdsService.RewardedPlayer.Play();
+        private void ShowAdsReward() => ServiceRoster.AdsService.RewardedPlayer.Play();
 
-        private void BuyProduct(string productId) =>
-            ServiceRoster.IAPService.Buy(productId);
+        private void BuyProduct(string productId) => ServiceRoster.IAPService.Buy(productId);
+
+        private void OpenShed() => _profilePlayer.CurrentState.Value = GameState.Shed;
 
         private void SubscribeAds()
         {
