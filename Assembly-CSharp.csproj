@@ -63,6 +63,7 @@
     <Compile Include="Assets\_Root\Scripts\Tool\Reactive\SubscriptionProperty.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\AbilitySystem\Abilities\JumpAbility.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\Upgrade\UpgradeItemConfig.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Inventory\InventoryContext.cs" />
     <Compile Include="Assets\_Root\Scripts\Ui\MainMenuView.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\Upgrade\JumpHeightUpgradeHandler.cs" />
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\ExampleEventUpdate.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\_Root\Scripts\Game\TapeBackground\TapeBackgroundView.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\IAP\PurchaseValidator.cs" />
     <Compile Include="Assets\UpdateManager\Scripts\OverridableMonoBehaviour.cs" />
+    <Compile Include="Assets\_Root\Scripts\ParentObject.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\Ads\UnityAds\RewardedPlayer.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\Ads\UnityAds\UnityAdsService.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\Ads\IAdsService.cs" />
@@ -93,6 +95,7 @@
     <Compile Include="Assets\_Root\Scripts\Services\Ads\UnityAds\StubPlayer.cs" />
     <Compile Include="Assets\_Root\Scripts\Tool\Reactive\ISubscriptionProperty.cs" />
     <Compile Include="Assets\_Root\Scripts\Ui\MainMenuController.cs" />
+    <Compile Include="Assets\_Root\Scripts\BaseContext.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\Ads\UnityAds\InterstitialPlayer.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\Car\CarModel.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Inventory\Items\Item.cs" />
@@ -117,6 +120,7 @@
     <Compile Include="Assets\_Root\Scripts\Features\Shed\Upgrade\UpgradeHandlersRepository.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\Upgrade\UpgradeItemConfigDataSource.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\Upgrade\SpeedUpgradeHandler.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\AbilitySystem\AbilitiesContext.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\InputLogic\InputAcceleration.cs" />
     <Compile Include="Assets\_Root\Scripts\Ui\SettingsMenuView.cs" />
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\Cloner.cs" />
@@ -144,6 +148,8 @@
     <Compile Include="Assets\_Root\Scripts\Game\Car\CarController.cs" />
     <Compile Include="Assets\_Root\Scripts\Profile\GameState.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\InputLogic\InputKeyboard.cs" />
+    <Compile Include="Assets\_Root\Scripts\Profile\InitialSettings.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Shed\ShedContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -2,9 +2,7 @@ using System;
 using System.Collections.Generic;
 
 internal interface IRepository : IDisposable
-{
-
-}
+{ }
 
 internal abstract class BaseRepository<TKey, TValue, TConfig> : IRepository
 {
