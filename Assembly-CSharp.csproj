@@ -91,6 +91,7 @@
     <Compile Include="Assets\_Root\Scripts\Services\Analytics\UnityAnalytics\UnityAnalyticsService.cs" />
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\Counter.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\InputLogic\BaseInputView.cs" />
+    <Compile Include="Assets\_Battle\Scripts\PlayerData.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\AbilitySystem\AbilitiesController.cs" />
     <Compile Include="Assets\_Root\Scripts\MainController.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\Ads\UnityAds\StubPlayer.cs" />
@@ -116,6 +117,7 @@
     <Compile Include="Assets\_Root\Scripts\Services\IAP\Settings\ProductLibrary.cs" />
     <Compile Include="Assets\_Root\Scripts\Tool\ResourceManagement\ContentDataSourceLoader.cs" />
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\ExampleUpdateManagerUpdate.cs" />
+    <Compile Include="Assets\_Battle\Scripts\MainWindowMediator.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\IAP\IIAPService.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Inventory\Items\ItemView.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\InputLogic\InputGameController.cs" />
@@ -128,6 +130,7 @@
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\Cloner.cs" />
     <Compile Include="Assets\_Root\Scripts\BaseController.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\Car\CarView.cs" />
+    <Compile Include="Assets\_Battle\Scripts\DataType.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Inventory\InventoryModel.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\Upgrade\UpgradeType.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\InputLogic\FloatInputJoystick.cs" />
@@ -142,6 +145,7 @@
     <Compile Include="Assets\_Root\Scripts\Features\Inventory\Items\ItemsRepository.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\ShedView.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\AbilitySystem\Abilities\IAbility.cs" />
+    <Compile Include="Assets\_Battle\Scripts\Enemy.cs" />
     <Compile Include="Assets\_Root\Scripts\Ui\SettingsMenuController.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\ShedController.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Inventory\Items\ItemConfigDataSource.cs" />
@@ -150,10 +154,15 @@
     <Compile Include="Assets\_Root\Scripts\Game\Car\CarController.cs" />
     <Compile Include="Assets\_Root\Scripts\Profile\GameState.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\InputLogic\InputKeyboard.cs" />
-    <Compile Include="Assets\_Battle\Scripts\DataType.cs" />
-    <Compile Include="Assets\_Battle\Scripts\PlayerData.cs" />
-    <Compile Include="Assets\_Battle\Scripts\MainWindowMediator.cs" />
-    <Compile Include="Assets\_Battle\Scripts\Enemy.cs" />
+    <Compile Include="Assets\_Rewards\Scripts\RewardView.cs" />
+    <Compile Include="Assets\_Rewards\Scripts\CurrencyView.cs" />
+    <Compile Include="Assets\_Rewards\Scripts\ContainerSlotRewardView.cs" />
+    <Compile Include="Assets\_Rewards\Scripts\InstallView.cs" />
+    <Compile Include="Assets\_Rewards\Scripts\RewardController.cs" />
+    <Compile Include="Assets\_Rewards\Scripts\CurrencySlotView.cs" />
+    <Compile Include="Assets\_Rewards\Scripts\Reward.cs" />
+    <Compile Include="Assets\_Rewards\Scripts\RewardType.cs" />
+    <Compile Include="Assets\_Rewards\Scripts\AwardPeriod.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
