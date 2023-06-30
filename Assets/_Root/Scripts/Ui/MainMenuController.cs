@@ -1,6 +1,6 @@
+using Tool;
 using Profile;
 using Services;
-using Tool;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
@@ -16,7 +16,7 @@ namespace Ui
         {
             _profilePlayer = profilePlayer;
             _view = LoadView(placeForUi);
-            _view.Init(StartGame, OpenSetting, ShowAdsReward, BuyProduct, OpenShed);
+            _view.Init(StartGame, OpenSetting, ShowAdsReward, BuyProduct, OpenShed, OpenDailyReward, ExitGame);
 
             SubscribeAds();
             SubscribeIAP();
@@ -46,6 +46,16 @@ namespace Ui
         private void BuyProduct(string productId) => ServiceRoster.IAPService.Buy(productId);
 
         private void OpenShed() => _profilePlayer.CurrentState.Value = GameState.Shed;
+
+        private void OpenDailyReward() => _profilePlayer.CurrentState.Value = GameState.DailyReward;
+
+        private void ExitGame()
+        {
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#endif
+            Application.Quit();
+        }
 
         private void SubscribeAds()
         {

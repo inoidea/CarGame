@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\_Root\Scripts\Services\IAP\PurchaseRestorer.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\AbilitySystem\Abilities\AbilityType.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Fight\FightController.cs" />
     <Compile Include="Assets\UpdateManager\Scripts\UpdateManager.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\ServiceRoster.cs" />
     <Compile Include="Assets\_Root\Scripts\Tool\Reactive\SubscriptionProperty.cs" />
@@ -66,12 +67,14 @@
     <Compile Include="Assets\_Root\Scripts\Features\Inventory\InventoryContext.cs" />
     <Compile Include="Assets\_Root\Scripts\Ui\MainMenuView.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\Upgrade\JumpHeightUpgradeHandler.cs" />
-    <Compile Include="Assets\_Rewards\Scripts\RewardView.cs" />
+    <Compile Include="Assets\_Root\Scripts\Tool\Tween\Examples\Extensions\GameObjectExtensions.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Rewards\RewardView.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Fight\StartFightView.cs" />
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\ExampleEventUpdate.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\Ads\IAdsPlayer.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\Upgrade\IUpgradeable.cs" />
+    <Compile Include="Assets\_Root\Scripts\Tool\Tween\Examples\DOTween\TweenCubeMove.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\TapeBackground\TapeBackgroundController.cs" />
-    <Compile Include="Assets\_Rewards\Scripts\InstallView.cs" />
     <Compile Include="Assets\_Root\Scripts\Tool\ResourceManagement\ResourcesLoader.cs" />
     <Compile Include="Assets\_Root\Scripts\Profile\ProfilePlayer.cs" />
     <Compile Include="Assets\_Root\Scripts\Tool\DontDestroyOnLoadObject.cs" />
@@ -89,11 +92,12 @@
     <Compile Include="Assets\_Root\Scripts\Game\InputLogic\GyroscopeInputView.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\Ads\UnityAds\Settings\UnityAdsSettings.cs" />
     <Compile Include="Assets\_Root\Scripts\Profile\InitialSettings.cs" />
+    <Compile Include="Assets\_Root\Scripts\Tool\Tween\MainWindowView.cs" />
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\ExampleUnityUpdate.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\Analytics\UnityAnalytics\UnityAnalyticsService.cs" />
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\Counter.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\InputLogic\BaseInputView.cs" />
-    <Compile Include="Assets\_Battle\Scripts\PlayerData.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Fight\PlayerData.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\AbilitySystem\AbilitiesController.cs" />
     <Compile Include="Assets\_Root\Scripts\MainController.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\Ads\UnityAds\StubPlayer.cs" />
@@ -106,27 +110,39 @@
     <Compile Include="Assets\UpdateManager\Scripts\Utility\Singleton.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\IAP\IAPService.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Inventory\Items\ItemConfig.cs" />
-    <Compile Include="Assets\_Rewards\Scripts\Reward.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Rewards\Currency\CurrencyController.cs" />
+    <Compile Include="Assets\_Root\Scripts\Tool\Tween\Examples\DOTween\TweenCubePath.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Rewards\Reward.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\AbilitySystem\Abilities\AbilityItemConfigDataSource.cs" />
+    <Compile Include="Assets\_Root\Scripts\Tool\Tween\AudioButtonComponent.cs" />
+    <Compile Include="Assets\_Root\Scripts\Tool\Tween\Examples\Extensions\GameObjectExtensionExample.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\Analytics\AnalyticsManager.cs" />
+    <Compile Include="Assets\_Root\Scripts\Tool\Tween\Examples\Lerp\MathfLerpComponent.cs" />
+    <Compile Include="Assets\_Root\Scripts\Tool\Tween\AnimationButtonType.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\GameController.cs" />
+    <Compile Include="Assets\_Root\Scripts\Tool\Tween\PopupView.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\Upgrade\IUpgradeHandler.cs" />
-    <Compile Include="Assets\_Rewards\Scripts\CurrencySlotView.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Rewards\Currency\CurrencySlotView.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\TapeBackground\Background.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\AbilitySystem\IAbilityActivator.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\IAP\Settings\Product.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\AbilitySystem\Abilities\AbilityButtonView.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\ShedContext.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Fight\StartFightController.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\Analytics\IAnalyticsService.cs" />
+    <Compile Include="Assets\_Root\Scripts\Tool\Tween\CustomButton_Obsolete.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\IAP\Settings\ProductLibrary.cs" />
+    <Compile Include="Assets\_Root\Scripts\Tool\Tween\Examples\DOTween\TweenCubeColor.cs" />
     <Compile Include="Assets\_Root\Scripts\Tool\ResourceManagement\ContentDataSourceLoader.cs" />
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\ExampleUpdateManagerUpdate.cs" />
-    <Compile Include="Assets\_Battle\Scripts\MainWindowMediator.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Fight\FightView.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\IAP\IIAPService.cs" />
+    <Compile Include="Assets\_Root\Scripts\Tool\Tween\Examples\DOTween\TweenCubeSequence.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Inventory\Items\ItemView.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\InputLogic\InputGameController.cs" />
-    <Compile Include="Assets\_Rewards\Scripts\RewardType.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Rewards\RewardType.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\Upgrade\UpgradeHandlersRepository.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Rewards\Currency\CurrencyModel.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\Upgrade\UpgradeItemConfigDataSource.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\Upgrade\SpeedUpgradeHandler.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\AbilitySystem\AbilitiesContext.cs" />
@@ -135,13 +151,15 @@
     <Compile Include="Assets\UpdateManager\Example Scene\Scripts\Cloner.cs" />
     <Compile Include="Assets\_Root\Scripts\BaseController.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\Car\CarView.cs" />
-    <Compile Include="Assets\_Battle\Scripts\DataType.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Fight\DataType.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Inventory\InventoryModel.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\Upgrade\UpgradeType.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\InputLogic\FloatInputJoystick.cs" />
+    <Compile Include="Assets\_Root\Scripts\Tool\Tween\AnimationButtonComponent.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\AbilitySystem\AbilitiesView.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\AbilitySystem\Abilities\StubAbility.cs" />
-    <Compile Include="Assets\_Rewards\Scripts\AwardPeriod.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Rewards\AwardPeriod.cs" />
+    <Compile Include="Assets\_Root\Scripts\Tool\Tween\Examples\Lerp\VectorLerpComponent.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\Ads\UnityAds\UnityAdsPlayer.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\Upgrade\StubUpgradeHandler.cs" />
     <Compile Include="Assets\_Root\Scripts\Services\Ads\UnityAds\Settings\AdsPlayerSettings.cs" />
@@ -151,9 +169,9 @@
     <Compile Include="Assets\_Root\Scripts\Features\Inventory\Items\ItemsRepository.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\ShedView.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\AbilitySystem\Abilities\IAbility.cs" />
-    <Compile Include="Assets\_Battle\Scripts\Enemy.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Fight\Enemy.cs" />
     <Compile Include="Assets\_Root\Scripts\Ui\SettingsMenuController.cs" />
-    <Compile Include="Assets\_Rewards\Scripts\CurrencyView.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Rewards\Currency\CurrencyView.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Shed\ShedController.cs" />
     <Compile Include="Assets\_Root\Scripts\Features\Inventory\Items\ItemConfigDataSource.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\InputLogic\InputJoystickView.cs" />
@@ -161,21 +179,10 @@
     <Compile Include="Assets\_Root\Scripts\Game\Car\CarController.cs" />
     <Compile Include="Assets\_Root\Scripts\Profile\GameState.cs" />
     <Compile Include="Assets\_Root\Scripts\Game\InputLogic\InputKeyboard.cs" />
-    <Compile Include="Assets\_Rewards\Scripts\ContainerSlotRewardView.cs" />
-    <Compile Include="Assets\_Rewards\Scripts\RewardController.cs" />
-    <Compile Include="Assets\_Tween\Scripts\MainWindowView.cs" />
-    <Compile Include="Assets\_Tween\Scripts\CustomButtonByComposition.cs" />
-    <Compile Include="Assets\_Tween\Scripts\Examples\DOTween\TweenCubeMove.cs" />
-    <Compile Include="Assets\_Tween\Scripts\PopupView.cs" />
-    <Compile Include="Assets\_Tween\Scripts\Examples\DOTween\TweenCubeSequence.cs" />
-    <Compile Include="Assets\_Tween\Scripts\Examples\Lerp\VectorLerpComponent.cs" />
-    <Compile Include="Assets\_Tween\Scripts\CustomButtonByInheritance.cs" />
-    <Compile Include="Assets\_Tween\Scripts\Examples\DOTween\TweenCubePath.cs" />
-    <Compile Include="Assets\_Tween\Scripts\Examples\Extensions\GameObjectExtensions.cs" />
-    <Compile Include="Assets\_Tween\Scripts\AnimationButtonType.cs" />
-    <Compile Include="Assets\_Tween\Scripts\Examples\DOTween\TweenCubeColor.cs" />
-    <Compile Include="Assets\_Tween\Scripts\Examples\Lerp\MathfLerpComponent.cs" />
-    <Compile Include="Assets\_Tween\Scripts\Examples\Extensions\GameObjectExtensionExample.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Rewards\Slot\ContainerSlotRewardView.cs" />
+    <Compile Include="Assets\_Root\Scripts\Features\Rewards\RewardController.cs" />
+    <Compile Include="Assets\_Root\Scripts\Game\Menu\BackToMainMenuView.cs" />
+    <Compile Include="Assets\_Root\Scripts\Game\Menu\BackToMainMenuController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -445,11 +452,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.0f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.0f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

@@ -1,11 +1,11 @@
-using Features.AbilitySystem;
+using Tool;
+using Profile;
+using Services;
+using UnityEngine;
 using Game.Car;
 using Game.InputLogic;
 using Game.TapeBackground;
-using Profile;
-using Services;
-using Tool;
-using UnityEngine;
+using Features.AbilitySystem;
 
 namespace Game
 {
@@ -16,8 +16,8 @@ namespace Game
 
         private readonly CarController _carController;
         private readonly InputGameController _inputGameController;
-        private readonly AbilitiesContext _abilitiesContext;
         private readonly TapeBackgroundController _tapeBackgroundController;
+        private readonly AbilitiesContext _abilitiesContext;
 
         public GameController(Transform placeForUi, ProfilePlayer profilePlayer)
         {
@@ -26,8 +26,8 @@ namespace Game
 
             _carController = CreateCarController(profilePlayer.CurrentCar);
             _inputGameController = CreateInputGameController(profilePlayer, _leftMoveDiff, _rightMoveDiff);
-            _abilitiesContext = CreateAbilitiesContext(placeForUi, _carController);
             _tapeBackgroundController = CreateTapeBackground(_leftMoveDiff, _rightMoveDiff);
+            _abilitiesContext = CreateAbilitiesContext(placeForUi, _carController);
 
             ServiceRoster.Analytics.SendLevelStartEvent();
         }
