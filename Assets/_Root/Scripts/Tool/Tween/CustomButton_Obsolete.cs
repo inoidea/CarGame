@@ -29,11 +29,11 @@ namespace Tool.Tween
             InitComponents();
         }
 
-        protected override void OnValidate()
-        {
-            base.OnValidate();
-            InitComponents();
-        }
+        //protected override void OnValidate()
+        //{
+        //    base.OnValidate();
+        //    InitComponents();
+        //}
 
         private void InitComponents()
         {

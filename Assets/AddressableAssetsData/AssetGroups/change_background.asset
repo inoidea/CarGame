@@ -10,16 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Default Local Group
+  m_Name: change_background
   m_EditorClassIdentifier: 
-  m_GroupName: Default Local Group
+  m_GroupName: change_background
   m_Data:
     m_SerializedData: []
-  m_GUID: 4f71bdf734b6bd24782c8a81fb5c146b
-  m_SerializeEntries: []
+  m_GUID: e16c14b134411e24ca36633d2ac60514
+  m_SerializeEntries:
+  - m_GUID: 1481334038ea30a4bbbeb1912d9230ff
+    m_Address: Assets/_Root/Sprites/Tween/box/box_event2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 7f038acc82341624385b3143168f9e4c, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 412f7817cca584b46844184e0b9e198f, type: 2}
-    - {fileID: 11400000, guid: 86108a2eae13c3344a3324b414600edf, type: 2}
+    - {fileID: 11400000, guid: 0addeb2d01c914b47ba82aa8537caad3, type: 2}
+    - {fileID: 11400000, guid: 506ed9b369012d64cac04632d043a4c0, type: 2}

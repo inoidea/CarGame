@@ -23,6 +23,12 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.assetbundlebrowser": {
+      "version": "file:D:/ForUnity/AssetBundles-Browser-master",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "1.15.17",
       "depth": 0,
