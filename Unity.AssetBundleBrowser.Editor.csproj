@@ -56,14 +56,17 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleDataSource\AssetDatabaseABDataSource.cs">
+      <Link>Editor\AssetBundleDataSource\AssetDatabaseABDataSource.cs</Link>
+    </Compile>
+    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\InspectTab\AssetBundleInspectTab.cs">
+      <Link>Editor\InspectTab\AssetBundleInspectTab.cs</Link>
+    </Compile>
     <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetListTree.cs">
       <Link>Editor\AssetListTree.cs</Link>
     </Compile>
-    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleDataSource\ABDataSourceProvider.cs">
-      <Link>Editor\AssetBundleDataSource\ABDataSourceProvider.cs</Link>
-    </Compile>
-    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleTree.cs">
-      <Link>Editor\AssetBundleTree.cs</Link>
+    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\InspectTab\InspectSingleBundle.cs">
+      <Link>Editor\InspectTab\InspectSingleBundle.cs</Link>
     </Compile>
     <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\InspectTab\AssetBundleRecord.cs">
       <Link>Editor\InspectTab\AssetBundleRecord.cs</Link>
@@ -71,44 +74,41 @@
     <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleBrowserMain.cs">
       <Link>Editor\AssetBundleBrowserMain.cs</Link>
     </Compile>
-    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\InspectTab\InspectTreeView.cs">
-      <Link>Editor\InspectTab\InspectTreeView.cs</Link>
-    </Compile>
-    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleDataSource\AssetDatabaseABDataSource.cs">
-      <Link>Editor\AssetBundleDataSource\AssetDatabaseABDataSource.cs</Link>
-    </Compile>
-    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\InspectTab\AssetBundleInspectTab.cs">
-      <Link>Editor\InspectTab\AssetBundleInspectTab.cs</Link>
-    </Compile>
     <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleManageTab.cs">
       <Link>Editor\AssetBundleManageTab.cs</Link>
-    </Compile>
-    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleModel\ABModelAssetInfo.cs">
-      <Link>Editor\AssetBundleModel\ABModelAssetInfo.cs</Link>
-    </Compile>
-    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleDataSource\ABDataSource.cs">
-      <Link>Editor\AssetBundleDataSource\ABDataSource.cs</Link>
-    </Compile>
-    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleModel\ABModelBundleInfo.cs">
-      <Link>Editor\AssetBundleModel\ABModelBundleInfo.cs</Link>
-    </Compile>
-    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\MessageList.cs">
-      <Link>Editor\MessageList.cs</Link>
-    </Compile>
-    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\InspectTab\InspectSingleBundle.cs">
-      <Link>Editor\InspectTab\InspectSingleBundle.cs</Link>
-    </Compile>
-    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\MessageSystem.cs">
-      <Link>Editor\MessageSystem.cs</Link>
     </Compile>
     <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\BundleDetailList.cs">
       <Link>Editor\BundleDetailList.cs</Link>
     </Compile>
-    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleBuildTab.cs">
-      <Link>Editor\AssetBundleBuildTab.cs</Link>
+    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\MessageSystem.cs">
+      <Link>Editor\MessageSystem.cs</Link>
+    </Compile>
+    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleDataSource\ABDataSource.cs">
+      <Link>Editor\AssetBundleDataSource\ABDataSource.cs</Link>
+    </Compile>
+    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleDataSource\ABDataSourceProvider.cs">
+      <Link>Editor\AssetBundleDataSource\ABDataSourceProvider.cs</Link>
+    </Compile>
+    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleTree.cs">
+      <Link>Editor\AssetBundleTree.cs</Link>
+    </Compile>
+    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleModel\ABModelAssetInfo.cs">
+      <Link>Editor\AssetBundleModel\ABModelAssetInfo.cs</Link>
     </Compile>
     <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleModel\ABModel.cs">
       <Link>Editor\AssetBundleModel\ABModel.cs</Link>
+    </Compile>
+    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleBuildTab.cs">
+      <Link>Editor\AssetBundleBuildTab.cs</Link>
+    </Compile>
+    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\InspectTab\InspectTreeView.cs">
+      <Link>Editor\InspectTab\InspectTreeView.cs</Link>
+    </Compile>
+    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\MessageList.cs">
+      <Link>Editor\MessageList.cs</Link>
+    </Compile>
+    <Compile Include="D:\ForUnity\AssetBundles-Browser-master\Editor\AssetBundleModel\ABModelBundleInfo.cs">
+      <Link>Editor\AssetBundleModel\ABModelBundleInfo.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
